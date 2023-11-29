@@ -1,7 +1,7 @@
 node {
 
-   def registryProjet='formation/'
-   def IMAGE="${registryProjet}app:${version}"
+   def registryProjet='galdric-app/'
+   def IMAGE="${registryProjet}app:3.8"
 
     stage('Clone') {
           checkout scm
